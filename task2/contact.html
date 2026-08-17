@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <form autocomplete="off" method="post">
+
+        <div>
+            <label>First Name :</label>
+            <input type="text" name="firstName" autofocus required
+                placeholder="Enter your first name">
+        </div>
+
+        <div>
+            <label>Last Name :</label>
+            <input type="text" id="lastName" name="lastName"
+                placeholder="Enter your last name">
+        </div>
+
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"
+                placeholder="example@gmail.com">
+        </div>
+
+        <div>
+            <label>City :</label>
+            <input type="text" name="city" value="Alexandria" disabled>
+            <input type="text" name="shippingCity" value="Alexandria" readonly>
+        </div>
+
+        <div>
+            <label>Password :</label>
+            <input type="password" name="password"
+                placeholder="Enter your password">
+        </div>
+
+        <div>
+            <label>Gender :</label>
+
+            <input type="radio" name="gender" value="male">
+            <label>Male</label>
+
+            <input type="radio" name="gender" value="female">
+            <label>Female</label>
+        </div>
+
+        <div>
+            <label>Courses :</label>
+
+            <input type="checkbox" name="courses[]" value="html">
+            <label>HTML</label>
+
+            <input type="checkbox" name="courses[]" value="css">
+            <label>CSS</label>
+
+            <input type="checkbox" name="courses[]" value="javascript">
+            <label>JavaScript</label>
+
+            <input type="checkbox" name="courses[]" checked value="bootstrap">
+            <label>Bootstrap</label>
+        </div>
+
+        <div>
+            <label>Age :</label>
+            <input type="number" name="age" min="18" max="60">
+        </div>
+
+        <select name="track">
+            <option value="" disabled selected>Choose your track</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="network">Network</option>
+            <option value="mobile">Mobile</option>
+        </select>
+
+        <br><br>
+
+        <input type="file" name="userFile" multiple>
+
+        <br><br>
+
+        <input type="text" pattern="[A-Za-z]{3,5}" placeholder="3 to 5 letters">
+
+        <input type="text" pattern="[A-Za-z]+" placeholder="Letters only">
+
+        <input type="text" pattern="[0-9]+" placeholder="Numbers only">
+
+        <div>
+            <label for="website">Website :</label>
+            <input type="url" id="website" name="website"
+                pattern="https?://.+" placeholder="https://example.com">
+        </div>
+
+        <div>
+            <input type="date" name="birthDate">
+            <input type="datetime-local" name="meetingDate">
+        </div>
+        <div>
+            <label>ID :</label>
+            <input type="text" name="userID" minlength="10" maxlength="14">
+        </div>
+
+        <div>
+            <textarea name="comment" placeholder="Write your comment"
+                cols="50" rows="4"></textarea>
+        </div>
+
+        <div>
+            <label for="searchTrack">Search Track :</label>
+            <input list="trackList" id="searchTrack" name="searchTrack">
+
+            <datalist id="trackList">
+                <option value="Frontend">
+                <option value="Backend">
+                <option value="Network">
+                <option value="Mobile">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="profileImage">profile image :</label>
+            <input type="file" id="profileImage"
+                name="profileImage" accept=".png">
+        </div>
+
+        <div>
+            <label for="phone">phone number :</label>
+            <input type="text" id="phone" name="phone"
+                pattern="01(0|2|5|1)[0-9]{8}"
+                placeholder="01012345678"
+                title="Enter 11 digits starting with 010, 012, or 015">
+        </div>
+
+        <fieldset>
+            <legend>contact Information</legend>
+
+            <label for="contactName">Name :</label>
+            <input type="text" id="contactName" name="contactName">
+
+            <br><br>
+
+            <label for="contactEmail">Email :</label>
+            <input type="email" id="contactEmail" name="contactEmail">
+
+            <br><br>
+
+            <label for="contactPhone">Phone :</label>
+            <input type="text" id="contactPhone" name="contactPhone">
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Register</button>
+
+        <button type="reset">Clear info</button>
+
+    </form>
+</body>
+
+</html>
