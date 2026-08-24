@@ -1,0 +1,61 @@
+@media (max-width: 767.98px) {
+    .hero {
+        padding-top: 35px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    .hero-images img {
+        height: 190px;
+    }
+
+    .wellbeing h2,
+    .eat h2,
+    .section-space h2 {
+        font-size: 23px;
+    }
+
+    .section-image {
+        height: 260px;
+    }
+
+    .protective-box {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer-links {
+        justify-content: flex-start;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero h1 {
+        font-size: 23px;
+    }
+
+    .hero-images img {
+        height: 170px;
+    }
+
+    .section-space {
+        padding: 30px 0;
+    }
+
+    .wellbeing-art,
+    .food-art {
+        margin-top: 20px;
+    }
+
+    .feature-row p {
+        font-size: 10px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #243336;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    background: #ffffff;
+    padding: 14px 0;
+}
+
+.nav-container {
+    position: relative;
+}
+
+.logo {
+    color: #243336;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: 0;
+    padding: 3px 2px;
+    color: #243336;
+    font-size: 22px;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-collapse {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    color: #243336;
+    font-size: 14px;
+    padding: 7px 0;
+}
+
+.hero {
+    padding: 30px 24px 24px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0 auto 15px;
+    max-width: 350px;
+    font-size: 34px;
+    line-height: .98;
+    font-weight: 700;
+}
+
+.hero p {
+    max-width: 330px;
+    margin: 0 auto 18px;
+    color: #626d70;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.join-btn {
+    display: inline-block;
+    padding: 9px 29px;
+    border-radius: 20px;
+    background: #2b6870;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.hero-image,
+.wellbeing,
+.nutrition,
+.produce,
+.eat,
+.forest-section,
+.protective {
+    padding: 12px 0;
+}
+
+.hero-image img,
+.section-image img,
+.produce-image,
+.forest img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.hero-image img {
+    height: 160px;
+}
+
+.wellbeing {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+.wellbeing h2,
+.nutrition-title h2,
+.produce h2,
+.eat-card h2 {
+    margin: 0 0 14px;
+    font-weight: 700;
+    line-height: .98;
+}
+
+.wellbeing h2 {
+    font-size: 33px;
+}
+
+.wellbeing p,
+.produce > .container > p,
+.eat-card p,
+.feature p {
+    color: #626d70;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.wellbeing p {
+    max-width: 330px;
+    margin: 0 auto 12px;
+}
+
+.round-btn,
+.forest-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #2b6870;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.nutrition {
+    padding-top: 15px;
+}
+
+.section-image img {
+    height: 160px;
+}
+
+.nutrition-title {
+    text-align: center;
+    padding: 28px 20px 20px;
+}
+
+.nutrition-title h2 {
+    font-size: 34px;
+}
+
+.produce {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.produce-image {
+    height: 170px;
+    margin-bottom: 22px;
+}
+
+.produce h2 {
+    font-size: 32px;
+}
+
+.produce > .container > p {
+    margin-bottom: 20px;
+}
+
+.features {
+    margin-top: 10px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.feature i {
+    width: 37px;
+    height: 37px;
+    min-width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #6b9da0;
+    border-radius: 50%;
+    color: #2b6870;
+}
+
+.feature p {
+    margin: 0;
+}
+
+.eat {
+    padding-top: 15px;
+}
+
+.eat-card {
+    background: #f5f5f5;
+    border-radius: 16px;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.eat-card h2 {
+    font-size: 35px;
+}
+
+.eat-card p {
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.eat-card .join-btn {
+    background: #e6a79a;
+    margin-top: 3px;
+}
+
+.forest-section {
+    padding-top: 14px;
+}
+
+.forest {
+    position: relative;
+}
+
+.forest img {
+    height: 165px;
+}
+
+.forest-title {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.forest-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    transform: translateX(-50%);
+    background: #ffffff;
+    color: #2b6870;
+}
+
+.protective {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.protective-box {
+    background: #f9e5dc;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+
+.protective-box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 7px 0;
+    font-size: 18px;
+}
+
+.protective-box i {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #243336;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+footer {
+    padding: 28px 0 25px;
+    background: #2b6870;
+    color: #ffffff;
+}
+
+footer h3 {
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 13px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 640px;
+    }
+}

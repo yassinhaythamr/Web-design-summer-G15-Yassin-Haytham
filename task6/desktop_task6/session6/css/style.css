@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #292929;
+    background-color: #ffffff;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    color: #275f68;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.nav-link {
+    color: #222;
+    font-size: 10px;
+}
+
+.hero {
+    padding: 65px 0 55px;
+}
+
+.hero h1 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.hero > .container > p {
+    max-width: 600px;
+    margin: 0 auto 18px;
+    font-size: 10px;
+}
+
+.main-button {
+    display: inline-block;
+    background-color: #28636c;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 42px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hero-images {
+    margin-top: 28px;
+}
+
+.hero-images img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.section-space {
+    padding: 40px 0;
+}
+
+.wellbeing,
+.eat {
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+
+.wellbeing h2,
+.eat h2,
+.section-space h2 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.wellbeing-art {
+    height: 170px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.wellbeing-art i:nth-child(1) {
+    font-size: 85px;
+    color: #222;
+}
+
+.wellbeing-art i:nth-child(2) {
+    font-size: 30px;
+    color: #28636c;
+    margin-left: -25px;
+}
+
+.wellbeing-art i:nth-child(3) {
+    display: block;
+    font-size: 45px;
+    color: #28636c;
+    margin-top: -15px;
+}
+
+.small-icon,
+.peach-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.small-icon {
+    background-color: #28636c;
+    color: white;
+}
+
+.peach-icon {
+    background-color: #efc1aa;
+    color: #222;
+}
+
+.small-icon i,
+.peach-icon i {
+    font-size: 13px;
+}
+
+.section-image {
+    height: 310px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.feature-row {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    gap: 14px;
+}
+
+.feature-row p {
+    margin: 0;
+}
+
+.round-icon {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #28636c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #28636c;
+}
+
+.food-art {
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #28636c;
+}
+
+.food-art i:nth-child(1) {
+    font-size: 100px;
+}
+
+.food-art i:nth-child(2) {
+    font-size: 50px;
+}
+
+.food-art i:nth-child(3) {
+    font-size: 75px;
+}
+
+.food-art i:nth-child(4) {
+    font-size: 55px;
+    align-self: flex-start;
+    margin-top: 35px;
+}
+
+.wellbeing-start {
+    background-image: url("../images/forest.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 470px;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+}
+
+.wellbeing-start:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.42);
+    border-radius: 7px;
+}
+
+.wellbeing-start .container {
+    position: relative;
+    z-index: 1;
+}
+
+.start-content {
+    padding-top: 35px;
+}
+
+.start-icon {
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.start-icon i {
+    font-size: 20px;
+}
+
+.start-content h2 {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.start-content p {
+    max-width: 430px;
+    margin: 0 auto 15px;
+    font-size: 9px;
+}
+
+.outline-button {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 7px 45px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.protective-box {
+    background-color: #f9d7c9;
+    color: #222;
+    width: 88%;
+    margin: 80px auto 0;
+    padding: 30px 20px;
+    border-radius: 7px;
+}
+
+.protective-item > div {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.protective-item i {
+    font-size: 18px;
+}
+
+.protective-item p {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+footer {
+    background-color: #28636c;
+    color: white;
+    padding: 35px 0;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons i {
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+}
