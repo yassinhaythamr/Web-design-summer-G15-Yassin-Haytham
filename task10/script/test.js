@@ -4,6 +4,9 @@
 // > 80 ==> very good
 // > 70 ==> good
 // < 70 ==> failed
+
+
+
 var degree = prompt("enter your degree")
 if(degree==null || degree=="" ){
     alert('please enter your degree')
@@ -22,4 +25,11 @@ else if(degree>80){
 else {
     alert('fail')
 }
+
+
+
+
+
+
+
 
