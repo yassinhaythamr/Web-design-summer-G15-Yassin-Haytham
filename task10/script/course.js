@@ -9,5 +9,4 @@ if (newcourse === "") {
 } else {
     courses.push(newcourse);
     console.log(courses);
-    alert('course addedd sucssefully')
 }
